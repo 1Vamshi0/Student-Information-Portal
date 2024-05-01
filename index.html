@@ -3,78 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SIS </title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <link rel="stylesheet" href="style.css">
+    <title>SIS PORTAL</title>
+    <frameset cols="20%,80%" border="0">
+        <frame src="main.html" name="menu">
+            <frame src="2.html" name="content">
+    </frameset>
 </head>
-<body bgcolor="#def2f1">
-    <div class="sidebar">
-        <div class="top">
-            <div class="logo">
-                <img src="https://pbs.twimg.com/profile_images/1187669264494317571/ZRkF_uzG_400x400.jpg" width="30" height="30" alt="">
-                <p>&#160&#160IFHE</p>
-            </div>
-            <i class="bx bx-menu" id="btn"></i>
-        </div>
-        <div class="user">
-              <img src="1.jpg" alt="vamshi" class="my-img">
-              <div>
-                <p class="bold">Vamshi</p>
-                <p>Admin</p>
-              </div>
-        </div>
-        <ul>
-            <li>
-                <a href="notice.html" target = "content">
-                    <i class='bx bx-clipboard'></i>
-                    <span class="nav-item">Notice</span>
-                </a>
-                <span class="tooltip">Notice</span>
-            </li>
-            <li>
-                <a href="info.html" target = "content">
-                    <i class='bx bx-user-circle'></i>
-                    <span class="nav-item">Info</span>
-                </a>
-                <span class="tooltip">Info</span>
-            </li>
-            <li>
-                <a href="course.html" target = "content">
-                    <i class='bx bxs-institution'></i>
-                    <span class="nav-item">Course</span>
-                </a>
-                <span class="tooltip">Course</span>
-            </li>
-            <li>
-                <a href="attendence.html" target = "content">
-                    <i class='bx bx-bar-chart-square'></i>
-                    <span class="nav-item">Attendance</span>
-                </a>
-                <span class="tooltip">Attendance<d/span>
-            </li>
-            <li>
-                <a href="hallticket.html" target = "content">
-                    <i class='bx bx-notepad'></i>
-                    <span class="nav-item">HallTicket </span>
-                </a>
-                <span class="tooltip">HallTicket </span>
-            </li>
-            <li>
-                <a href="login.html" target="_top"">
-                    <i class='bx bx-log-out'></i>
-                    <span class="nav-item">Logout</span>
-                </a>
-                <span class="tooltip">Logout</span>
-            </li>
-        </ul>
-    </div>
-    
-</body> 
-<script>
-    let btn=document.querySelector('#btn')
-    let sidebar=document.querySelector('.sidebar')
-    btn.onclick =function(){
-        sidebar.classList.toggle('active');
-    };
-</script>
 </html>
