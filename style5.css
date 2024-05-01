@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+* {
+    margin: 0;
+}
+body {
+    background-color: #def2f1;
+    font-family: Arial;
+}
+.main {
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 70%;
+}
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.main .card {
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: 70%;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+    
+}
+.main .card .print{
+    background-color: #8fb2fc;
+    border: 2px solid #2766b3a7;
+	border-radius: 15px;
+	box-shadow: none;
+	width: 8rem; /* adjust as required */
+	height: 2rem; /* adjust as required */	
+    margin-bottom: 20px;
+}
+
+.main .card .print:hover {
+    background: #4374dc;
+    border: 2px solid hsl(237, 85%, 11%);
+	border-radius: 15px;
+	box-shadow: none;
+    color: #fff;
+	
+}
+
