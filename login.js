@@ -10,13 +10,13 @@ loginButton.addEventListener("click", (e) => {
     // Reset error messages
     loginErrorMsg.style.opacity = 0;
 
-    if (username === "username" && password === "password") {
+    if (username === "user1" && password === "admin") {
         window.location.href = "frame.html"; // Navigate to frame.html
     } else {
-            if (username !== "username") {
+            if (username !== "user1") {
                 loginErrorMsg.style.opacity = 1;
             }
-            if (password !== "password") {
+            if (password !== "admin") {
                 loginErrorMsg.style.opacity = 1;
             }
         }
