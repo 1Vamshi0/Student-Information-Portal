@@ -10,13 +10,13 @@ loginButton.addEventListener("click", (e) => {
     // Reset error messages
     loginErrorMsg.style.opacity = 0;
 
-    if (username === "vamshi" && password === "Infinity_717") {
+    if (username === "username" && password === "password") {
         window.location.href = "frame.html"; // Navigate to frame.html
     } else {
-            if (username !== "vamshi") {
+            if (username !== "username") {
                 loginErrorMsg.style.opacity = 1;
             }
-            if (password !== "Infinity_717") {
+            if (password !== "password") {
                 loginErrorMsg.style.opacity = 1;
             }
         }
